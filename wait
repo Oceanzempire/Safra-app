@@ -1,0 +1,67 @@
+Uncaught Error
+profileAllergies?.join is not a function
+Source
+ 
+ 327 |
+    setProfileBloodType(profile
+.
+bloodType 
+||
+ 
+''
+)
+;
+ 
+ 328 |
+    setProfileEmergencyMessage(profileEmergencyMessage 
+||
+ 
+''
+)
+;
+>
+ 329 |
+    setProfileAllergies(profileAllergies
+?
+.
+join(
+', '
+) 
+||
+ 
+''
+)
+;
+ 
+     |
+                                          
+^
+ 
+ 330 |
+    setProfileMedications(profileMedications
+?
+.
+join(
+', '
+) 
+||
+ 
+''
+)
+;
+ 
+ 331 |
+  }
+ 
+ 332 |
+}
+,
+ [showProfileModal
+,
+ profile])
+;
+Call Stack
+useEffect$argument_0
+app/(tabs)/emergency/index.tsx:329:45
+
+and add a strong background color for the add document and add contact on the emergency screen and also debug the add document funtionality, and make the user login and  registration functional with the supabase configurations
